@@ -11,7 +11,7 @@ import google.generativeai as genai
 
 # --- ใส่รหัสที่คุณจดไว้ตรงนี้ ---
 LINE_CHANNEL_SECRET = "c3cf4310bc02e00c0458d1ea7724441d"
-LINE_CHANNEL_ACCESS_TOKEN = "2009099554"
+LINE_CHANNEL_ACCESS_TOKEN = "EBjfPdJi09SK/6/CNtIxNZKRg0QZsZKkHUG6VDu4OgoBHpWdKlOTPJ/Gyav+agb2x74FV2pzMCUL2cWbfZgo2ii6wPVklscbSEeXhJTJakDycXSBNk4MeDAZ5lkbbGFWDHwnX9FAJQyYbg4acjawmQdB04t89/1O/w1cDnyilFU="
 GEMINI_API_KEY = "AIzaSyDDRuJuG2MRPNN41kYWXjkmF3a651wSy0w"
 
 # ตั้งค่า Gemini
