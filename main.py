@@ -10,9 +10,9 @@ from linebot.v3.webhooks import MessageEvent, TextMessageContent
 import google.generativeai as genai
 
 # --- ใส่รหัสที่คุณจดไว้ตรงนี้ ---
-LINE_CHANNEL_SECRET = "ใส่_Channel_Secret_ตรงนี้"
-LINE_CHANNEL_ACCESS_TOKEN = "ใส่_Channel_Access_Token_ตรงนี้"
-GEMINI_API_KEY = "ใส่_Gemini_API_Key_ตรงนี้"
+LINE_CHANNEL_SECRET = "c3cf4310bc02e00c0458d1ea7724441d"
+LINE_CHANNEL_ACCESS_TOKEN = "2009099554"
+GEMINI_API_KEY = "AIzaSyDDRuJuG2MRPNN41kYWXjkmF3a651wSy0w"
 
 # ตั้งค่า Gemini
 genai.configure(api_key=GEMINI_API_KEY)
