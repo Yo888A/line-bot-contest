@@ -16,7 +16,7 @@ GEMINI_API_KEY = "AIzaSyDDRuJuG2MRPNN41kYWXjkmF3a651wSy0w"
 
 # ตั้งค่า Gemini
 genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel(model_name='models/gemini-1.5-flash-latest')
 
 app = FastAPI()
 configuration = Configuration(access_token=LINE_CHANNEL_ACCESS_TOKEN)
